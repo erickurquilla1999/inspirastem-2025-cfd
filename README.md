@@ -1,13 +1,7 @@
 <!-- README.md -->
 # Técnicas Computacionales de Fluidos en Ingeniería y Astrofísica  
 **Taller InspiraSTEM 2025**
-
-| | |
-|---|---|
-| **Lugar** | *[Completar]* |
-| **Fechas** | *[Completar]* |
-| **Hora** | *[Completar]* |
-| **Instructor** | **Erick Urquilla** — eurquill@vols.utk.edu • [sitio web](https://sites.google.com/view/erickurquilla) |
+**Instructor:** **Erick Urquilla** — eurquill@vols.utk.edu • [sitio web](https://sites.google.com/view/erickurquilla) 
 
 ---
 
