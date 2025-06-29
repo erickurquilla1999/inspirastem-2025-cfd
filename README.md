@@ -1,12 +1,14 @@
 <!-- README.md -->
 # Técnicas Computacionales de Fluidos en Ingeniería y Astrofísica  
-**Taller InspiraSTEM 2025**
-**Instructor:** **Erick Urquilla** — eurquill@vols.utk.edu • [sitio web](https://sites.google.com/view/erickurquilla) 
 
----
+**Erick Urquilla**\
+PhD Student\
+Department of Physics and Astronomy\
+University of Tennessee, Knoxville\
+eurquill@vols.utk.edu\
+[sites.google.com/view/erickurquilla](https://sites.google.com/view/erickurquilla)
 
-## Sobre el instructor  
-Soy un estudiante salvadoreño de doctorado en Física (Bains Fellow) originario de San Juan Opico, La Libertad. Bajo la asesoría del Dr. Sherwood Richers en la Universidad de Tennessee, Knoxville, estudio fenómenos cuánticos de neutrinos en supernovas y colisiones de estrellas de neutrones. He trabajado con **CFD avanzado** en el Departamento de Ingeniería Aeroespacial de UTK y con métodos de transporte de neutrinos en astrofísica.
+Soy originario de San Juan Opico, departamento de La Libertad, El Salvador. Obtuve la licenciatura en Física en la Universidad de El Salvador, donde inicié mi trayectoria investigadora junto al Dr. Raúl Ortiz, realizando simulaciones cosmológicas del Universo que incluían agujeros negros primordiales. Actualmente curso el doctorado en Física como Bains Fellow en la Universidad de Tennessee, Knoxville, bajo la dirección del Dr. Sherwood Richers, centrando mi trabajo en los fenómenos cuánticos de los neutrinos en supernovas y colisiones de estrellas de neutrones. Además, en el Departamento de Ingeniería Aeroespacial de UTK he elaborado proyectos de dinámica de fluidos computacional avanzada y he desarrollado métodos de transporte de neutrinos aplicados a la astrofísica.
 
 ---
 
