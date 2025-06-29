@@ -8,7 +8,7 @@ University of Tennessee, Knoxville\
 eurquill@vols.utk.edu\
 [sites.google.com/view/erickurquilla](https://sites.google.com/view/erickurquilla)
 
-Soy originario de San Juan Opico, departamento de La Libertad, El Salvador. Obtuve la licenciatura en Física en la Universidad de El Salvador, donde inicié mi trayectoria investigadora junto al Dr. Raúl Ortiz, realizando simulaciones cosmológicas del Universo que incluían agujeros negros primordiales. Actualmente curso el doctorado en Física como Bains Fellow en la Universidad de Tennessee, Knoxville, bajo la dirección del Dr. Sherwood Richers, centrando mi trabajo en los fenómenos cuánticos de los neutrinos en supernovas y colisiones de estrellas de neutrones. Además, en el Departamento de Ingeniería Aeroespacial de UTK he elaborado proyectos de dinámica de fluidos computacional avanzada y he desarrollado métodos de transporte de neutrinos aplicados a la astrofísica.
+Soy originario de San Juan Opico, departamento de La Libertad, El Salvador. Obtuve la licenciatura en Física en la Universidad de El Salvador, donde inicié mi trayectoria investigadora junto al Dr. Raúl Ortiz, realizando simulaciones cosmológicas del Universo que incluían agujeros negros primordiales como modelos de materia oscura. Actualmente curso el doctorado en Física como Bains Fellow en la Universidad de Tennessee, Knoxville, bajo la dirección del Dr. Sherwood Richers, centrando mi trabajo en los fenómenos cuánticos de los neutrinos en supernovas y colisiones de estrellas de neutrones. Además, en el Departamento de Ingeniería Aeroespacial de UTK he elaborado proyectos de dinámica de fluidos computacional avanzada y he desarrollado métodos de transporte de neutrinos aplicados a la astrofísica.
 
 ---
 
