@@ -25,7 +25,7 @@ Este curso aborda técnicas avanzadas de modelado computacional de fluidos. Con 
 
 ## Perfil de estudiantes  
 
-Es deseable para el curso tener fundamentos básicos de álgebra, geometría, álgebra lineal, cálculo y ecuaciones diferenciales parciales a un nivel de quinto semestre de carreras de ciencias e ingenierías. Conceptos básicos de fluidos. Habilidades de programación en Python: tipos de variables, operaciones logicas, loops, funciones, paquetes. Conocimiento de arrays numpy y gráficos de matplotlib harían la resolución de ejercicios más simple.
+Es deseable, pero no es requisito, contar con fundamentos básicos de álgebra, geometría, álgebra lineal, cálculo y ecuaciones diferenciales parciales. Conceptos básicos de fluidos. Habilidades de programación en Python: tipos de variables, operaciones logicas, loops, funciones, paquetes. Conocimiento de arrays numpy y gráficos de matplotlib harían la resolución de ejercicios más simple.
 
 ---
 
