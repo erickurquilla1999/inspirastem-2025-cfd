@@ -14,17 +14,13 @@ Soy originario de San Juan Opico, departamento de La Libertad, El Salvador. Obtu
 
 ## Descripción del curso  
 
-Este curso aborda técnicas avanzadas de modelado computacional de fluidos. Con un enfoque práctico, los estudiantes trabajarán en simulaciones de un fluido incompresible en una dimensión, completando partes clave de un código existente. Se utilizarán elementos finitos (Discontinuous Galerkin) para la discretización espacial y diferencias finitas (Runge-Kutta 4 o Euler hacia adelante) para la temporal. Se cubrirán temas como la generación de mallas, la forma débil de ecuaciones diferenciales, funciones base de Lagrange, solucionadores de Riemann y estimación de errores. Las técnicas aprendidas podrán aplicarse a procesos astrofísicos más complejos, como el transporte de materia y fotones.
+Este curso aborda técnicas avanzadas de modelado computacional de fluidos. Con un enfoque práctico, los estudiantes trabajarán en simulaciones de un fluido incompresible en una dimensión, completando partes clave de un código existente. Se utilizarán elementos finitos (Discontinuous Galerkin) para la discretización espacial y diferencias finitas (Runge–Kutta 4 o Euler hacia adelante) para la temporal. Se cubrirán temas como la generación de mallas, la forma débil de ecuaciones diferenciales, funciones base de Lagrange, solucionadores de Riemann y estimación de errores. Las técnicas aprendidas podrán aplicarse a procesos astrofísicos más complejos, como el transporte de materia y fotones. Estas técnicas también se usan ampliamente en la industria aeroespacial y mecánica.
 
 ---
 
 ## Objetivos generales  
-1. Comprender la formulación numérica de la ecuación de agua poco profunda 1-D.  
-2. Implementar un solver DG + RK4/Euler en **Python**.  
-3. Emplear integración de Gauss y bases de **Lagrange**.  
-4. Analizar estabilidad y estimar errores numéricos.  
-5. Transferir las técnicas a problemas astrofísicos de mayor complejidad.
-
+1. Comprender de forma práctica los métodos numéricos de elementos finitos (Galerkin discontinuo) para la evolución temporal de fluidos.
+2. Implementar una solución numérica de la ecuación de aguas poco profundas 1-D usando elementos finitos (Galerkin discontinuo) y diferencias finitas (RK4 o Euler) en Python.
 ---
 
 ## Perfil de estudiantes  
@@ -39,6 +35,6 @@ Es deseable para el curso tener fundamentos básicos de álgebra, geometría, á
 |---------| --------|
 | Curso de introduccion a Google Colab y Python (tipos de variables, operaciones logicas, loops, funciones, paquetes) |<https://www.youtube.com/playlist?list=PLKd7y--oK26dWXHV0Aoi5eOgoikk3Fp-J>|
 | Curso de introduccion numpy arrays |<https://www.youtube.com/watch?v=fczpaVSwGCA>|
-| Ecuaciones de agua profunda (Wikipedia) |<https://en.wikipedia.org/wiki/Shallow_water_equations>|
+| Ecuaciones de agua poco profunda (Wikipedia) |<https://en.wikipedia.org/wiki/Shallow_water_equations>|
 
 ---
