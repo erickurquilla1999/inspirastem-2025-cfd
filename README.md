@@ -1,5 +1,5 @@
 <!-- README.md -->
-# Técnicas Computacionales de Fluidos en Ingeniería y Astrofísica  
+# Técnicas Computacionales Avanzadas de Hidro/Aero-Dinámica en Ingeniería y Astrofísica
 
 **Erick Urquilla**\
 PhD Student\
