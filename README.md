@@ -14,7 +14,7 @@ Soy originario de San Juan Opico, departamento de La Libertad, El Salvador. Obtu
 
 ## Descripción del curso  
 
-Este curso aborda técnicas avanzadas de modelado computacional de fluidos. Con un enfoque práctico, los estudiantes trabajarán en simulaciones de un fluido incompresible en una dimensión, completando partes clave de un código existente. Se utilizarán elementos finitos (Discontinuous Galerkin) para la discretización espacial y diferencias finitas (Runge–Kutta 4 o Euler hacia adelante) para la temporal. Se cubrirán temas como la generación de mallas, la forma débil de ecuaciones diferenciales, funciones base de Lagrange, solucionadores de Riemann y estimación de errores. Las técnicas aprendidas podrán aplicarse a procesos astrofísicos más complejos, como el transporte de materia y fotones. Estas técnicas también se usan ampliamente en la industria aeroespacial y mecánica.
+Este curso aborda técnicas avanzadas de modelado computacional de fluidos. Con un enfoque práctico, los estudiantes trabajarán en simulaciones de un fluido incompresible en una dimensión, completando partes clave de un código existente. Se utilizarán elementos finitos (Discontinuous Galerkin) para la discretización espacial y diferencias finitas (Runge–Kutta 4 o Euler hacia adelante) para la temporal. Se cubrirán temas como la generación de mallas, la forma débil de ecuaciones diferenciales, funciones base de Lagrange, solucionadores de Riemann y estimación de errores. Las técnicas aprendidas podrán aplicarse a procesos astrofísicos más complejos, como el transporte de materia y fotones. Estas técnicas también se usan ampliamente en la investigación científica aplicada e industria.
 
 ---
 
