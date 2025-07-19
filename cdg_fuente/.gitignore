@@ -1,0 +1,8 @@
+#––– Python virtual environments –––#
+.venv/
+venv/
+env/
+ve-cfd/
+
+#––– PNG images –––#
+*.png
