@@ -1,4 +1,3 @@
-from IPython.display import clear_output, display
 import time
 import matplotlib.pyplot as plt
 
@@ -51,9 +50,7 @@ def apply_custom_settings(ax, log_scale_y=False):
 
 ############################################################
 
-def plot_simulation(malla, h, u, N_elementos, time_step, number_of_t_step):
-
-    clear_output(wait=True)  # Clear the output of the current cell    
+def plot_simulation(malla, h, u, N_elementos, time_step, number_of_t_step, display=False):
 
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
 
@@ -86,6 +83,7 @@ def plot_simulation(malla, h, u, N_elementos, time_step, number_of_t_step):
 
     ax1.set_title(r'$t = {:.2f} \, s$'.format( (number_of_t_step+1) * time_step), fontsize=22)
 
-    display(fig)
+    fig.savefig(f'plt_{number_of_t_step+1}.png', bbox_inches='tight')
+    if display:
+        plt.show()
     plt.close(fig)
-    time.sleep(0.1)  # Pause briefly to allow the display to update
