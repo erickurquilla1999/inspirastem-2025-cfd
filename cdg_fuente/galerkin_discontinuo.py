@@ -83,3 +83,44 @@ def compute_stiffness_vectors(_h, _u, _matriz_de_rigidez):
     stiff_vec_2 = np.array([ _matriz_de_rigidez @ ( _h[n] * np.array(_u[n])**2 + 0.5 * 9.8 * np.array(_h[n])**2 ) for n in e_numb])
 
     return stiff_vec_1, stiff_vec_2
+
+def calcula_inversa_matriz_de_masa(longitud_elemento_, pesos_de_gauss_, polinomios_de_lagrange_en_cuadratura_de_gauss_, N_nodos_):
+    """
+    Calcula la inversa de la matriz de masa para un elemento finito unidimensional.
+
+    Parametros:
+
+    longitud_elemento_ (float): La longitud del elemento finito.
+        ejemplo: longitud_elemento = 1.0
+
+    pesos_de_gauss_ (numpy.ndarray): Los pesos de Gauss utilizados en la cuadratura de Gauss.
+        ejemplo: pesos_de_gauss = [w0, w1, ..., wN] donde N es el numero de nodos de cuadratura de Gauss
+    
+    polinomios_de_lagrange_en_cuadratura_de_gauss_ (numpy.ndarray): Los valores de los polinomios de Lagrange evaluados en los puntos de cuadratura de Gauss.
+        ejemplo: 
+            polinomios_de_lagrange_en_cuadratura_de_gauss_ = [[phi_0(x_0), phi_0(x_1), ..., phi_0(x_N)], [phi_1(x_0), phi_1(x_1), ..., phi_1(x_N)], ..., [phi_N(x_0), phi_N(x_1), ..., phi_N(x_N)]]
+            polinomios_de_lagrange_en_cuadratura_de_gauss_[i] es un array con los valores de phi_i(x) evaluados en los nodos de cuadratura de Gauss.
+            polinomios_de_lagrange_en_cuadratura_de_gauss_[i] = [phi_i(x_0), phi_i(x_1), ..., phi_i(x_N)]
+
+    Retorna:
+    
+    numpy.ndarray: La inversa de la matriz de masa.
+    """
+
+    # Inicializa la matriz de masa
+    matriz_de_masa = np.zeros((N_nodos_, N_nodos_))
+
+    #-----------------------------------------------------------------------------------------
+    # Escribe tu solucion al ejercicio 4 a continuacion ...
+
+    # Calcula la matriz de masa
+    for i in range(N_nodos_):
+        for j in range(N_nodos_):
+            # Calcula la integral de phi_i(x) * phi_j(x) dx
+            matriz_de_masa[i, j] = 0.5 * longitud_elemento_ * np.sum(pesos_de_gauss_ * polinomios_de_lagrange_en_cuadratura_de_gauss_[i] * polinomios_de_lagrange_en_cuadratura_de_gauss_[j])
+    # Calcula la inversa de la matriz de masa
+    inversa_matriz_de_masa = np.linalg.inv(matriz_de_masa)
+
+    #-----------------------------------------------------------------------------------------
+
+    return inversa_matriz_de_masa
