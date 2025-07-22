@@ -83,7 +83,7 @@ def plot_simulation(malla, h, u, N_elementos, time_step, number_of_t_step, displ
 
     ax1.set_title(r'$t = {:.2f} \, s$'.format( (number_of_t_step) * time_step), fontsize=22)
 
-    fig.savefig(f'plt{int(number_of_t_step)}.png', bbox_inches='tight')
+    fig.savefig(f'imagenes/plt{int(number_of_t_step)}.png', bbox_inches='tight')
     if display:
         plt.show()
     plt.close(fig)
