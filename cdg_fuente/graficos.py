@@ -81,7 +81,7 @@ def plot_simulation(malla, h, u, N_elementos, time_step, number_of_t_step, displ
     # Apply custom settings to ax2 (ensure this function is defined)
     apply_custom_settings(ax2)
 
-    ax1.set_title(r'$t = {:.2f} \, s$'.format( (number_of_t_step+1) * time_step), fontsize=22)
+    ax1.set_title(r'$t = {:.2f} \, s$'.format( (number_of_t_step) * time_step), fontsize=22)
 
     fig.savefig(f'plt{int(number_of_t_step)}.png', bbox_inches='tight')
     if display:
